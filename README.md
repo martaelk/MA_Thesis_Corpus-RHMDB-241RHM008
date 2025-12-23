@@ -6,11 +6,14 @@ The author of the Master Thesis is Marta Elizabete Kivkule; identity card number
 - `data_clean/` – cleaned and processed datasets
 - `openrefine/` – OpenRefine transformation history
 - `notebooks/` – GoogleColab notebooks for analysis and visualization
-- `scripts/` – helper scripts
-- `output/` – generated figures and tables
+- `scripts/` –  Python scripts corresponding to individual analytical segments of the thesis, including data quality checks, temporal analysis, network construction, and MARC field exploration.
+- `output/` – generated figures and tables in png format
 
 ## Reproducibility
 1. Clone the repository.
 2. Install dependencies listed in `requirements.txt`.
 3. Open `notebooks/visualisations_mg.ipynb` in Jupyter or Google Colab.
 4. Run all cells to reproduce the results.
+
+Alternatively, individual analytical steps can be reproduced by running the individual Python scripts located in the `scripts/` directory.  
+These scripts are modular and can be executed independently, as each script loads the prepared dataset and performs a self-contained analysis

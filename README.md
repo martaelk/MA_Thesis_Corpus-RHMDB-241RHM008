@@ -8,6 +8,7 @@ The author of the Master Thesis is Marta Elizabete Kivkule; identity card number
 - `notebooks/` – GoogleColab notebooks for analysis and visualization
 - `scripts/` –  Python scripts corresponding to individual analytical segments of the thesis, including data quality checks, temporal analysis, network construction, and MARC field exploration.
 - `output/` – generated figures and tables in png format
+- `data_quality/` – automatically extracted and manually documented metadata issues identified during analysis.
 
 ## Reproducibility
 1. Clone the repository.

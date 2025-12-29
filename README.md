@@ -9,6 +9,7 @@ The author of the Master Thesis is Marta Elizabete Kivkule; identity card number
 - `scripts/` –  Python scripts corresponding to individual analytical segments of the thesis, including data quality checks, temporal analysis, network construction, and MARC field exploration.
 - `output/` – generated figures and tables in png format
 - `data_quality/` – automatically extracted and manually documented metadata issues identified during analysis.
+- 1_Notis - notated music framework used during the data quality asseement
 
 ## Reproducibility
 1. Clone the repository.
